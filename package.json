@@ -1,7 +1,7 @@
 {
-  "name": "redux-submitform-onvalidation",
+  "name": "redux-submitform-onchange",
   "version": "0.0.1",
-  "description": "",
+  "description": "Automatically submit a redux-form every time it validate succesfully",
   "repository": "parro-it/redux-submitform-onvalidation",
   "license": "MIT",
   "author": "parro-it",
@@ -28,5 +28,8 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "throttle-override": "^1.0.1"
+  }
 }

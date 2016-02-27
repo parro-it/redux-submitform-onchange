@@ -1,6 +1,7 @@
 'use strict';
 
 const throttle = require('throttle-override');
+const value = require('./modules/get-element-value');
 
 function submitOnChange(componentProps, _options) {
   const options = _options || {};
@@ -15,9 +16,8 @@ function submitOnChange(componentProps, _options) {
   return field => event => {
     field.onChange(event); // takes event or value
     const currentValues = Object.assign({}, componentProps.values);
-    currentValues[field.name] = event.target.value;
+    currentValues[field.name] = value(event.target);
     submit(currentValues);
-
   };
 }
 

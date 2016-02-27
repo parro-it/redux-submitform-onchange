@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "eslint": "^1.10.3",
-    "eslint-config-js": "^2.0.2",
+    "eslint-config-js": "^4.0.0",
     "faucet": "0.0.1",
     "tape": "^4.2.2"
   },
@@ -30,6 +30,7 @@
     "index.js"
   ],
   "dependencies": {
+    "eslint-config-js": "^4.0.0",
     "throttle-override": "^1.0.1"
   }
 }

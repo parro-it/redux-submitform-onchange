@@ -1,6 +1,6 @@
 {
   "name": "redux-submitform-onchange",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Automatically submit a redux-form every time it validate succesfully",
   "repository": "parro-it/redux-submitform-onvalidation",
   "license": "MIT",
@@ -27,7 +27,8 @@
     "tape": "^4.2.2"
   },
   "files": [
-    "index.js", "modules"
+    "index.js",
+    "modules"
   ],
   "dependencies": {
     "eslint-config-js": "^4.0.0",

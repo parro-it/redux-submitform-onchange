@@ -27,7 +27,7 @@
     "tape": "^4.2.2"
   },
   "files": [
-    "index.js"
+    "index.js", "modules"
   ],
   "dependencies": {
     "eslint-config-js": "^4.0.0",
